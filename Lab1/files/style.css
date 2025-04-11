@@ -1,0 +1,32 @@
+* { margin: 0; padding: 0; }
+body { position: relative; }
+
+/* las animaciones de ambos ojos deberian ser iguales, solo que el ojo derecho tiene una diferencia de 255px horizontalmente.*/
+.face {
+    position: absolute;
+    left: 200px;
+    top: 150px;;
+}
+
+.left_eye {
+    position: absolute;
+    left: 190px;
+    top: 190px;;
+    -webkit-animation-name: eyeL; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: eyeL;
+    animation-duration: 4s;
+}
+
+.right_eye {
+    position: absolute;
+    left: 445px;
+    top: 190px;;
+    -webkit-animation-name: eyeR; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: eyeR;
+    animation-duration: 4s;
+}
+
+
+/* Codigo e imagines creadas por el grupo de preparadores de ATI/*
