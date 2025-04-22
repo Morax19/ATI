@@ -11,14 +11,56 @@
     <h2>Otra cabecera</h2>
     <a href="">hiperv&iacute;nculo</a>
     <img src="" alt="imagen de prueba">
-    <table title="Tabla de prueba"></table>
+    <table title="Tabla de prueba" border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>País</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>Pérez</td>
+                <td>28</td>
+                <td>Venezuela</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>Martínez</td>
+                <td>30</td>
+                <td>Venezuela</td>
+            </tr>
+        </tbody>
+    </table>
     <ul>
         <li>Elemento 1</li>
     </ul>
 
     <div style="color:#0000FF">
         <h3>Lorem Ipsum</h3>
-        <p></p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et turpis egestas.
+            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+            Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+            Mauris placerat eleifend leo.</p>
+    </div>
+
+    <form>
+        <b>Nombre:</b> <br />
+        <input type="text" name="Nombre" value=""><br />
+        <b>Apellido: </b> <br />
+        <input type="text" name="Apellido" value=""><br /><br />
+        <input type="submit" value="Enviar">
+    </form>
+
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Presiona aqu&iacute; para ver la fecha.
+    </button>
+    <div>
+        <p id="demo"></p>
     </div>
 </body>
 </html>
