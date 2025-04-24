@@ -1,0 +1,40 @@
+/* Main container styles */
+.main {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+/* Image container styles */
+.imgContainer {
+    margin-right: 5px;
+}
+
+.imgContainer img {
+    width: auto;
+    height: 60vh;
+    border-radius: 90px 0 0 0;
+}
+
+/* Text container styles */
+.textContainer {
+    width: 70%;
+    border: 1px solid black; /* Adds a black border */
+    padding: 10px; /* Optional: Adds spacing inside the border */
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.4); /* Adds a subtle shadow */
+}
+
+.textContainer h1 {
+    color: #FF6600;
+    font-family: Arial, sans-serif;
+}
+
+.textContainer p {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.textContainer a {
+    color: #FF6600;
+    text-decoration: none;
+}
